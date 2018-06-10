@@ -55,6 +55,7 @@ public class EditorActivity extends AppCompatActivity {
         setupSpinner();
     }
 
+    // Setup the dropdown spinner that allows the user to select the availability of the product.
     private void setupSpinner() {
         // Create adapter for spinner. The list options are from the String array it will use
         // the spinner will use the default layout
